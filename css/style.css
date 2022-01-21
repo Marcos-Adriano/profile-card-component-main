@@ -6,30 +6,18 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-.attribution {
-    position: absolute;
-    bottom: 1%;
-    font-size: 11px; text-align: center; 
-}
-
-.attribution a {
-     color: hsl(228, 45%, 44%); 
-}
-
 body {
     background-color: hsl(185, 75%, 39%);
     width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 main {
-    display: block;
-    align-items: center;
     max-height: 375px;
     max-width: 350px;
     margin: 0 auto;
     width: 100%;
-    height: 100%;
-    
 }
 
 .main {
@@ -59,7 +47,7 @@ main {
     width: 100%;
     text-align: center;
     align-items: center;
-    
+
 }
 
 .midCard .imageVictor {
@@ -74,6 +62,13 @@ main {
     margin: 1rem auto;
     width: 100%;
     text-align: center;
+}
+.social {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .sInfo {
@@ -106,4 +101,14 @@ main {
     bottom: -50%;
     left: 50%;
     z-index: -1;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1%;
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
 }
